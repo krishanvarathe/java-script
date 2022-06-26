@@ -1,0 +1,22 @@
+<html>
+    <head><title>CONFIRM BOX</title>
+    <script>
+        function ConfirmEXP()
+        {
+        var con=confirm("Do you want to continue your class");
+        if(con==true)
+        {
+            document.write("Yes")
+            return true;
+        }
+        else
+        {
+            document.write("No")
+            return false;
+        }
+        }
+    </script></head>
+    <body>
+        <input type="button" onclick="ConfirmEXP()" value="CLICK ME">
+        <p>Hello this is confirm box</p>
+    </body></html>
